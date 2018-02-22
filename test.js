@@ -2,7 +2,20 @@ const assert = require('assert');
 Object.freeze(assert);
 const Sorter = require('./src/index.js');
 
+// function describe(a, cb) {
+//   cb();
+// }
+
+// function it(a, cb) {
+//   cb();
+// }
+
+// function beforeEach(cb) {
+//   cb();
+// }
+
 describe('Sorter', () => {
+
   let sorter;
 
   beforeEach(() => {

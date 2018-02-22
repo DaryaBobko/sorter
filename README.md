@@ -11,6 +11,7 @@ Implement class `Sorter` with next methods:
 
 `length` - return the count of current elements, which were added to `Sorter` instance via `add` method
 
+<!--  возвращает все элементы в массиве. Например: -->
 `toArray` - return all elements in array. For example:
 ```js
   const sorter = new Sorter();
